@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        
+
+        .wrapper {
+            width: 1440px;
+            padding: 0 206px;
+            margin: 0 auto;
+            background-color: rgb(255, 254, 255);
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #fafafa2a;
+            height: 65px;
+        }
+
+        .menu {
+            margin: 10px 0;
+            height: 40px;
+            font-size: 18px;
+            line-height: 41px;
+        }
+
+        .menu img {
+            float: left;
+            margin-left: 30px;
+            height: 40px;
+        }
+
+        .menu nav {
+            float: right;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin-left: 22px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        .menu p {
+            float: right;
+            margin-left: 20px;
+            font-weight: 700;
+        }
+
+        .banner {
+            height: 500px;
+            width: 1028px;
+      
+        }
+        .banner img {
+            height: 500px;
+            width: 1028px;
+            filter: brightness(40%);
+            
+        }
+        .banner p {
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .banner button {
+            border-radius: 5px;
+            padding: 10px 10px;
+            text-transform: uppercase;
+            width: 150px;
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            font-size: 10pt;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        h3 {
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+        }
+        h2 {
+            margin: 30px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        text p {
+            padding: 0 100px 40px;
+        }
+        .br .prod-elements,
+        .clock .content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .prod {
+            width: 230px;
+            height: 350px;
+            text-align: left;
+            margin-top: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        
+
+        .prod-elements {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 1028px;
+        }
+
+        .clock .prod-elements div p {
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .clock .prod-elements div img {
+            height: 220px;
+            margin-top: 10px;
+        }
+        .ba {
+            height: 200px;
+            background-size: 1026px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="menu">
+            <img src="" alt="My-Giro">
+            <nav>
+                <ul>
+                    <li><a href="Преимущества"></a></li>
+                    <li><a href="О нас"></a></li>
+                    <li><a href="Особенности"></a></li>
+                    <li><a href="Каталог"></a></li>
+                    <li><a href="Команда"></a></li>
+                    <li><a href="Бренды"></a></li>
+                    <li><a href="Полезное"></a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        <div class="banner">
+            <img src="img/logo.jpg" alt="">
+            <h3>My-Giro</h3> <br>
+            <p>Крупнейший интернет-магазин гироскутеров, сигвееев и электросамокатов <br>
+                от известных мировых производителей</p>
+                <form action="">
+                    <button type="submit">В каталог</button>
+                </form>
+        </div>
+        <section class="text">
+            <h2>О нас</h2>
+            <p>В нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей. <br>
+                Все товары, представленные на нашем сайте, отобраны лучшими специалистами в этой области. 
+                Купить гироскутер, электросамокат или сигвей недорого.</p>
+        </section>
+        <section class="clock">
+            <h2>Каталог</h2>
+            <div class="prod-elements">
+                <div class="prod">
+                    <img src="img/gir.jpg" alt="">
+                    <p>Xiaomi Ninebot mini Pro White (Белый)</p>
+                    <p>31 480 р.</p>
+                </div>
+                <div class="prod">
+                    <img src="img/gir.jpg" alt="">
+                    <p>Xiaomi Ninebot mini Pro White (Белый)</p>
+                    <p>31 480 р.</p>
+                </div>
+                <div class="prod">
+                    <img src="img/gir.jpg" alt="">
+                    <p>Xiaomi Ninebot mini Pro White (Белый)</p>
+                    <p>31 480 р.</p>
+                </div>
+                <div class="prod">
+                    <img src="img/gir.jpg" alt="">
+                    <p>Xiaomi Ninebot mini Pro White (Белый)</p>
+                    <p>31 480 р.</p>
+                </div>
+            </div>
+        </section>
+        <div class="ba">
+        <section class="br">
+            <h2>Бренды</h2>
+            <div class="prod-elements">
+                <div>
+                    <img src="img/gir2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/gir2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/gir2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/gir2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
